@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+
+    <dimen name="horizontal_padding">16dp</dimen>
+    <dimen name="vertical_padding">16dp</dimen>
+    <dimen name="padding_circle">8dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="divider_size">1dp</dimen>
+    <dimen name="dot_size">4dp</dimen>
+    <dimen name="time_width">96dp</dimen>
+    <dimen name="padding_text">4dp</dimen>
+    <dimen name="margin_form">92dp</dimen>
+    <dimen name="calendar_width">392dp</dimen>
+    <dimen name="default_elevation">4dp</dimen>
+    <dimen name="cardview_corners">10dp</dimen>
+    <dimen name="button_corners">5dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+</resources>

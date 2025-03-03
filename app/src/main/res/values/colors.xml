@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#fff</color>
+    <color name="myColorNew">#00BFA5</color>
+
+    //from assami
+    <color name="bgBackSideColor">#f4f0ff</color>
+    <color name="bgTitleLeft">#16B4C4</color>
+    <color name="blue">#594691</color>
+    <color name="bgTitleRight">#ffffff</color>
+    <color name="bgContentTop">#16B4C4</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="contentDividerLine">#e0e0e0</color>
+    <color name="contentBadgeTitle">#a9a9a9</color>
+    <color name="titleBadgeTitle">#adafb1</color>
+    <color name="titleBadgeText">#adafb1</color>
+    <color name="mainTextColor">#343d43</color>
+    <color name="btnRequest">#ffbf12</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="Gray_shade2">#d3d3d3</color>
+
+    //from MeraHalqa
+    <color name="color1">#1FBBA6</color>
+    <color name="color2">#086B5B</color>
+    <color name="color3">#97272E</color>
+    <color name="greyText">#A9A9A9</color>
+
+    <color name="blue50">#97272E</color>
+    <color name="cyan50">#97272E</color>
+    <color name="black">#000</color>
+
+    <color name="orange50">#eb8d4c</color>
+    <color name="orange">#eb8d4c</color>
+    <color name="yellow50">#F9A825</color>
+    <color name="red50">#97272E</color>
+    <color name="blue500">#2196F3</color>
+    <color name="blue700">#1976D2</color>
+    <color name="greenA700">#00C853</color>
+    <color name="colorDivider">#1F000000</color>
+
+    <color name="main_pending">#478cc3</color>
+    <color name="main_processing">#eb8d4c</color>
+    <color name="main_responded">#507b53</color>
+    <color name="main_rejected">#e77575</color>
+    <color name="main_complaints">#ac0505</color>
+    <color name="main_escalated">#783c3c</color>
+
+    //FromNarkhnama
+    <color name="comodities">#F16A54</color>
+    <color name="fruit">#FFCC00</color>
+    <color name="vegas">#CFD827</color>
+    <color name="health">#78E7E0</color>
+    <color name="mosque">#32730F</color>
+</resources>

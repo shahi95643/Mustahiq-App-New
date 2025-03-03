@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mustahiq</string>
+    <string name="zakat_schemes">Zakat Schemes</string>
+    <string name="pro_hospitals">Provincial Hospitals</string>
+    <string name="distict_offices">District Offices</string>
+    <string name="hospital_details">Hospital Details</string>
+    <string name="hospital_name">Hospital Name</string>
+    <string name="focal_person_name">Focal Person Name</string>
+    <string name="focal_person_number">Focal Person Contact Number</string>
+    <string name="contact_now">Click to Contact Focal Person</string>
+    <string name="location_check">Click Location Button to find Address</string>
+    <string name="hospital_location">Find Hospital Location</string>
+    <string name="district_offices_details">District Offices Details</string>
+    <string name="district_name">District Name</string>
+    <string name="district_zakat_officer_name">District Zakat Officer Name</string>
+    <string name="officer_number">Officer Number</string>
+    <string name="district_chairman">District Chairman</string>
+    <string name="district_chairman_number">District Chairman Number</string>
+    <string name="numberof_local_zakat_communities">Number of Local Zakat Communities</string>
+    <string name="find_local_zakat_committees">Find Local Zakat Committees</string>
+    <string name="contact_district_zakat_officer">Contact District Zakat Officer</string>
+    <string name="find_office_location">Find Office Location</string>
+    <string name="local_zakat_committee">Local Zakat Committee</string>
+    <string name="local_zakat_committee_name">Local Zakat Committee Name</string>
+    <string name="tehsil_name">Tehsil Name</string>
+    <string name="chairman_name">Chairman Name</string>
+    <string name="chairman_number">Chairman Number</string>
+    <string name="contact_chairman">Contact Chairman</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="do_you_want_to_contact">Do you want to contact?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loading_zakat_committees">Loading zakat committees</string>
+    <string name="no_zakat_committees_available.">No zakat committees available.</string>
+    <string name="search_zakat_committees">Search Zakat Committees</string>
+    <string name="zakat_committees">Zakat Committees</string>
+    <string name="district_hospitals">District Hospitals</string>
+    <string name="search_hospitals">Search Hospitals</string>
+    <string name="loading_hospitals">Loading hospitals</string>
+    <string name="no_hospitals_available">No hospitals available</string>
+    <string name="district_offices">District Offices</string>
+    <string name="search_district_offices">Search District Offices</string>
+    <string name="loading_district_offices">Loading district offices</string>
+    <string name="no_district_offices_available">No district offices available</string>
+    <string name="committee_not_found_or_data_unavailable">Committee not found or data unavailable.</string>
+    <string name="search_zakat_schemes">Search Zakat Schemes</string>
+    <string name="loading_schemes">Loading schemes</string>
+    <string name="no_schemes_available">No schemes available.</string>
+    <string name="eligibility_criteria">Eligibility Criteria</string>
+    <string name="how_to_apply">How to Apply</string>
+    <string name="zakat_search_portal">Zakat Mustahiq Search</string>
+    <string name="dialog_text_english" translatable="false"><![CDATA[The Government of Pakistan introduced Zakat system in the country for the first time in 1980 through an Ordinance. \n \nTill 1994, the system worked under the administrative control of provinces. \n \nIn July, 1994 it was federalized and went  under the direct supervision of Federal Govt: for two and a half years. \n \nIn 1997, the centralized control of the Federal Govt: was done away with and operations of Zakat system was entrusted to Provincial Zakat Administrations.  \n \nIn the wake of 18th constitutional amendment, Zakat system was devolved to the Provinces. Certain matters already being dealt with by the Ministry of Zakat and  Ushr have been transferred to Zakat & Ushr Department, Khyber Pakhtunkhwa]]> \n\n
+    Mustahiq application is an informatory platform for public awareness about different Schemes of Zakat and Ushr Department. \n \nThe application include information about District Zakat Committees (DZC) and Local Zakat Committees (LZC) within districts with focal person contact numbers \n \nThe application also list provincial hospitals list from where public can get relief using Zakat and Ushr Department schemes \n \nFurthermore the application include list of schemes currently offered by Zakat and Ushr department for financial assistance to needy.</string>
+    <string name="dialog_text_urdu" translatable="false">حکومت پاکستان نے ایک آرڈیننس کے ذریعے 1980 میں پہلی بار ملک میں زکوٰۃ کا نظام متعارف کرایا ۔ \n\n
+1994 تک, نظام صوبوں کے انتظامی کنٹرول کے تحت کام کیا. \n\n
+ جولائی ، 1994 میں اس کو فیڈرلائزڈ کردیا گیا تھا اور ڈھائی سالوں تک وفاقی حکومت کی براہ راست نگرانی میں چلا گیا تھا ۔\n\n
+1997 میں ، وفاقی حکومت کا مرکزی کنٹرول ختم ہو گیا تھا اور زکاۃ سسٹم کے نظام کا عمل صوبائی زکوٰۃ انتظامیہ کو سونپا گیا تھا۔\n\n
+18 ویں آئینی ترمیم کے بعد ، زکوٰۃ کا نظام صوبوں میں وضع کیا گیا۔ وزارت زکوٰۃ اور عشر کے ذریعہ پہلے سے طے شدہ کچھ معاملات محکمہ زکوٰۃ اور عشر محکمہ خیبر پختونخوا کو منتقل کردیئے گئے ہیں.\n\nمستحق ایپلی کیشن زکوٰۃ اور عشر ڈیپارٹمنٹ کے مختلف سکیموں کے بارے میں عوامی آگاہی کے لئے ایک انفورماٹری پلیٹ فارم ہے ۔ \n\n
+اس ایپلی کیشن میں ضلع زکوٰۃ کمیٹیوں اور مقامی زکوٰۃ کمیٹیوں کے بارے میں معلومات شامل ہیں جن میں مرکزی شخص سے رابطہ نمبر موجود ہے ۔ \n\n
+ ایپلی کیشن میں صوبائی اسپتالوں کی فہرست بھی درج ہے جہاں زکوٰۃ اور عشر محکمہ سکیموں کا استعمال کرتے ہوئے عوام کو امداد مل سکتی ہے ۔ \n\n
+اس کے علاوہ اس ایپلی کیشن میں فی الحال زکوٰۃ اور عشر ڈیپارٹمنٹ کی طرف سے ضرورت مندوں کو مالی امداد کے لئے پیش کردہ سکیموں کی فہرست بھی شامل ہے.\n\n
+</string>
+    <string name="english" translatable="false">English</string>
+    <string name="urdu" translatable="false">اردو</string>
+    <string name="dialogtextenglish" translatable="false">Welcome to the app!</string>
+    <string name="dialogtexturdu" translatable="false">ایپ میں خوش آمدید!</string>
+</resources>

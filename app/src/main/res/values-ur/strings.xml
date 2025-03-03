@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">مستحق</string>
+    <string name="zakat_schemes">زکوٰۃ اسکیمیں</string>
+    <string name="pro_hospitals">صوبائی ہسپتال</string>
+    <string name="distict_offices">ضلعی زکوٰۃ دفاتر</string>
+    <string name="hospital_details">ہسپتال کی تفصیلات</string>
+    <string name="hospital_name">ہسپتال کا نام</string>
+    <string name="focal_person_name">فوکل پرسنز کا نام</string>
+    <string name="focal_person_number">فوکل شخص کا رابطہ نمبر</string>
+    <string name="contact_now">فوکل پرسن سے رابطہ کرنے کے لئے کلک کریں</string>
+    <string name="location_check">پتہ تلاش کرنے کے لئے زرد بٹن پر کلک کریں</string>
+    <string name="hospital_location">ہسپتال کا مقام حاصل کریں</string>
+    <string name="district_offices_details">ضلعی دفاتر کی تفصیلات</string>
+    <string name="district_name">ضلع زکوٰۃ افسر کا نام</string>
+    <string name="district_zakat_officer_name">ضلع زکوٰۃ افسر کا نام</string>
+    <string name="officer_number">افسر کا نمبر</string>
+    <string name="district_chairman">چیئرمین ضلع زکوۃ کمیٹی</string>
+    <string name="district_chairman_number">چیئرمین ضلع زکوۃ کمیٹی کا نمبر</string>
+    <string name="numberof_local_zakat_communities">مقامی زکوٰۃ کمیٹیوں کی تعداد</string>
+    <string name="find_local_zakat_committees">مقامی زکوٰۃ کمیٹیاں تلاش کریں</string>
+    <string name="contact_district_zakat_officer">ڈسٹرکٹ زکوٰۃ آفیسر سے رابطہ کریں</string>
+    <string name="find_office_location">دفتر کا مقام حاصل کریں</string>
+    <string name="local_zakat_committee">مقامی زکوٰۃ کمیٹی</string>
+    <string name="local_zakat_committee_name">مقامی زکوٰۃ کمیٹی کا نام</string>
+    <string name="tehsil_name">تحصیل کا نام</string>
+    <string name="chairman_name">چیئرمین کا نام</string>
+    <string name="chairman_number">چیئرمین کا نمبر</string>
+    <string name="contact_chairman">چیئرمین کے ساتھ رابطہ کریں</string>
+    <string name="contact_person">اس سے رابطہ کریں</string>
+    <string name="do_you_want_to_contact">کیا آپ رابطہ کرنا چاہتے ہیں؟</string>
+    <string name="yes">جی ہاں</string>
+    <string name="no">نہیں</string>
+    <string name="loading_zakat_committees">زکوٰۃ کمیٹیاں لوڈ ہو رہی ہیں۔</string>
+    <string name="no_zakat_committees_available.">زکوٰۃ کمیٹیاں نہیں ہیں۔</string>
+    <string name="search_zakat_committees">زکوٰۃ کمیٹیاں تلاش کریں۔</string>
+    <string name="zakat_committees">زکوٰۃ کمیٹیاں</string>
+    <string name="district_hospitals">ڈسٹرکٹ ہسپتال</string>
+    <string name="search_hospitals">ہسپتال تلاش کریں۔</string>
+    <string name="loading_hospitals">ہسپتالوں کو لوڈ کیا جا رہا ہے۔</string>
+    <string name="no_hospitals_available">ہسپتال دستیاب نہیں۔</string>
+    <string name="district_offices">ضلعی دفاتر</string>
+    <string name="search_district_offices">ضلعی دفاتر تلاش کریں۔</string>
+    <string name="loading_district_offices">ضلعی دفاتر لوڈ ہو رہے ہیں۔</string>
+    <string name="no_district_offices_available">کوئی ضلعی دفاتر دستیاب نہیں۔</string>
+    <string name="committee_not_found_or_data_unavailable">کمیٹی نہیں ملی یا ڈیٹا دستیاب نہیں ہے۔</string>
+    <string name="search_zakat_schemes">زکوٰۃ سکیمیں تلاش کریں۔</string>
+    <string name="loading_schemes">اسکیمیں لوڈ ہو رہی ہیں۔</string>
+    <string name="no_schemes_available">کوئی اسکیمیں دستیاب نہیں ہیں۔</string>
+    <string name="eligibility_criteria">اہلیت کا معیار</string>
+    <string name="how_to_apply">اپلائی کرنے کا طریقہ</string>
+    <string name="zakat_search_portal">زکوٰۃ مستحق کی تلاش</string>
+
+</resources>

@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "284247116761",
+    "firebase_url": "https://zakatandusher.firebaseio.com",
+    "project_id": "zakatandusher",
+    "storage_bucket": "zakatandusher.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284247116761:android:463a701b5558fd61b567c8",
+        "android_client_info": {
+          "package_name": "com.kpitb.mustahiq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVOLrXV-JLHmNW3vtI7eIi9WaN8QNREmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284247116761:android:9e205d61a9baa1abb567c8",
+        "android_client_info": {
+          "package_name": "com.kpitb.zakatandusher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284247116761-p07r46d60jvkbfqajvetfcg03f7h2r06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kpitb.zakatandusher",
+            "certificate_hash": "bf32d6be1e21c1eb1a09f159712a574abba5c07e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVOLrXV-JLHmNW3vtI7eIi9WaN8QNREmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
