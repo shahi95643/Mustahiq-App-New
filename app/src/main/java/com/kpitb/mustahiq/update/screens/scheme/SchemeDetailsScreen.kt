@@ -9,9 +9,11 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -27,8 +29,10 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.painterResource
@@ -45,6 +49,10 @@ import com.kpitb.mustahiq.update.screens.components.CardComponentWithTTS
 import com.kpitb.mustahiq.update.screens.components.TitleAndDescriptionCardWithTTS
 import com.kpitb.mustahiq.update.utils.AnalyticsHelper
 import com.kpitb.mustahiq.update.viewmodel.MustahiqViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import java.util.Locale
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -170,17 +178,31 @@ fun SchemeDetailsScreen(
                     "ps" -> scheme.scheme_apply_instruction_urdu
                     else -> scheme.scheme_apply_instruction
                 }
+                var isLoading by remember { mutableStateOf(false) }
                 Button(
                     onClick = {
-                        analyticsHelper.logFormDownload(scheme.scheme_title)
-                        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(StringConstants.fileLink + scheme.file_path))
-                        context.startActivity(browserIntent)
+                        isLoading = true // Show loading state
+                        CoroutineScope(Dispatchers.Main).launch {
+                            analyticsHelper.logFormDownload(scheme.scheme_title)
+                            delay(300) // Small delay to ensure logging happens before intent execution
+                            isLoading = false // Hide loading state
+                            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(StringConstants.fileLink + scheme.file_path))
+                            context.startActivity(browserIntent)
+                        }
                     },
                     modifier = Modifier
                         .align(Alignment.CenterHorizontally)
                         .padding(bottom = 16.dp)
                 ) {
-                    Text(text = "Download Form", fontSize = 16.sp)
+                    if (isLoading) {
+                        CircularProgressIndicator(
+                            modifier = Modifier.size(20.dp),
+                            color = Color.White,
+                            strokeWidth = 2.dp
+                        )
+                    } else {
+                        Text(text = "Download Form", fontSize = 16.sp)
+                    }
                 }
                 TitleAndDescriptionCardWithTTS(
                     title = title,
@@ -211,14 +233,27 @@ fun SchemeDetailsScreen(
                 Spacer(modifier = Modifier.height(16.dp))
                 Button(
                     onClick = {
-                        analyticsHelper.logFormDownload(scheme.scheme_title)
-                        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(StringConstants.fileLink+scheme.file_path))
-                        context.startActivity(browserIntent)
+                        isLoading = true // Show loading state
+                        CoroutineScope(Dispatchers.Main).launch {
+                            analyticsHelper.logFormDownload(scheme.scheme_title)
+                            delay(300) // Ensures analytics logs before opening the document
+                            isLoading = false // Hide loading state
+                            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(StringConstants.fileLink + scheme.file_path))
+                            context.startActivity(browserIntent)
+                        }
                     },
                     modifier = Modifier
                         .align(Alignment.CenterHorizontally)
                 ) {
-                    Text(text = "Download Form", fontSize = 16.sp)
+                    if (isLoading) {
+                        CircularProgressIndicator(
+                            modifier = Modifier.size(20.dp),
+                            color = Color.White,
+                            strokeWidth = 2.dp
+                        )
+                    } else {
+                        Text(text = "Download Form", fontSize = 16.sp)
+                    }
                 }
             }
         }
